@@ -36,7 +36,7 @@ Jabar = kota['32']
 for i in Jabar:
     if i['urban'] == 'CITARUM' and i['sub_district'] == 'BANDUNG WETAN':
         postMilea = i['postal_code']
-        print(postMilea)
+#         print(postMilea)
 
 ### Dilan
 ### urban = 'SAMPORA'
@@ -49,7 +49,7 @@ Banten = kota['36']
 for i in Banten:
     if i['urban'] == 'SAMPORA' and i['sub_district'] == 'CISAUK':
         postDilan = i['postal_code']
-        print(postDilan)
+#         print(postDilan)
 
 apiKey="Kap6KM9PtPC60IxH6nprOc8jYqPhU7qOYRMd7IX3aMNUDeTN04pUWcqeN5mGgt9u"
 url= f"http://www.zipcodeapi.com/rest/{apiKey}/distance.json/{postDilan}/{postMilea}/km"
